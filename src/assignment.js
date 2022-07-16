@@ -56,16 +56,16 @@ assignment.countEvenNumbers = countEvenNumbers;
  * @param {Array} arrayOfNumbers the array containing temperatures in Celsius to be converted
  * @returns Array the converted temperatures in Fahrenheit
  */
-const celciusDegree = [-50, -45, -32, -27, -23, -18, 0, 22, 50, 47, 100]
+// const celciusDegree = [-50, -45, -32, -27, -23, -18, 0, 22, 50, 47, 100]
 
-const celciusToFahrenheit = celciusDegree.map(function(celcius){
-  return Math.trunc((celcius*9/5)+32);
-})
-// console.log(celciusToFarenheit)
-function celsiusToFahrenheit(arrayOfNumbers) {
-    return arrayOfNumbers;
-}
-assignment.celsiusToFahrenheit = celsiusToFahrenheit;
+// const celciusToFahrenheit = celciusDegree.map(function(celcius){
+//   return Math.trunc((celcius*9/5)+32);
+// })
+// // console.log(celciusToFarenheit)
+// function celsiusToFahrenheit(arrayOfNumbers) {
+//     return arrayOfNumbers;
+// }
+// assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
 
 // ========================
